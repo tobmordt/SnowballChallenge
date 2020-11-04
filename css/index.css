@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-img {
+    background-image: url("../images/christian-wiediger-nSE1dxjNhyY-unsplash.jpg");
+
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+nav {
+    display: flex;
+    padding-left: 13%;
+    padding-right: 13%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.nav-links a:hover{
+    color: #ff7e00;
+}
+
+.title {
+    width: 100%;
+    padding-top: 45vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ff7e00;
+}
