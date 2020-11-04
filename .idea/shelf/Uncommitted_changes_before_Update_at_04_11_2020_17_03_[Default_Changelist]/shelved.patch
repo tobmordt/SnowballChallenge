@@ -1,0 +1,197 @@
+Index: .idea/SnowballChallenge.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/SnowballChallenge.iml	(date 1604500702319)
++++ .idea/SnowballChallenge.iml	(date 1604500702319)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: css/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/index.css	(revision bfb94033f7cff562eed5c76b7f271b3134ebd807)
++++ css/index.css	(date 1604505382104)
+@@ -1,0 +1,74 @@
++* {
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++    font-family: 'Montserrat', sans-serif;
++}
++
++.bg-img {
++    background-image: url("../images/christian-wiediger-nSE1dxjNhyY-unsplash.jpg");
++
++    min-height: 100vh;
++
++    background-position: top;
++    background-repeat: no-repeat;
++    background-size: cover;
++
++
++}
++
++
++nav {
++    display: flex;
++    justify-content: space-around;
++    align-items: center;
++    min-height: 12vh;
++}
++
++.logo {
++    color: #000000;
++    text-transform: uppercase;
++    letter-spacing: 3px;
++    font-size: 40px;
++}
++
++h4 a {
++    text-decoration: none;
++    color: #000000;
++}
++
++.nav-links {
++    display: flex;
++    justify-content: space-around;
++    width: 25%;
++}
++
++.nav-links li {
++    list-style: none;
++}
++
++.nav-links a{
++    color: #000000;
++    text-decoration: none;
++    font-weight: bold;
++    letter-spacing: 3px;
++    font-size: 16px;
++}
++
++.nav-links a:hover{
++    color: #ff7e00;
++}
++
++.title {
++    width: 100%;
++    padding-top: 45vh;
++    display: flex;
++    justify-content: space-around;
++    align-items: center;
++}
++
++h1 {
++    text-transform: uppercase;
++    color: white;
++    font-size: 10vh;
++}
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>SolarGlass</title>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision bfb94033f7cff562eed5c76b7f271b3134ebd807)
++++ index.html	(date 1604505540999)
+@@ -2,9 +2,36 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
++    <link rel="stylesheet" href="css/index.css">
+     <title>SolarGlass</title>
+ </head>
+ <body>
++    <div class="bg-img">
++        <nav>
++            <div class="logo">
++                <h4><a href="index.html">SolarGlass</a></h4>
++            </div>
++            <ul class="nav-links">
++                <li><a href="#">Home</a></li>
++                <li><a href="#">Why</a></li>
++                <li><a href="#">About</a></li>
++            </ul>
++        </nav>
++  <!--  <div class="title">
++            <h1>SolarGlass</h1>
++        </div> -->
++    </div>
++
++    <section>
++
++    </section>
++
++    <footer>
++
++    </footer>
++
+ 
+ </body>
+ </html>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1604500702356)
++++ .idea/vcs.xml	(date 1604500702356)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/codeStyleConfig.xml	(date 1604500702344)
++++ .idea/codeStyles/codeStyleConfig.xml	(date 1604500702344)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1604500702328)
++++ .idea/modules.xml	(date 1604500702328)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/SnowballChallenge.iml" filepath="$PROJECT_DIR$/.idea/SnowballChallenge.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
