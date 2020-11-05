@@ -22,10 +22,8 @@
     <list default="true" id="2a9a46f2-bb00-4dae-bcaa-33397846a662" name="Default Changelist" comment="JS etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cool.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/cool.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dimmable.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/dimmable.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/niti.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/niti.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volume-control-1.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a87c9d7-26d6-4be5-afbc-81e0a770f1a7" name="Default Changelist" comment="" />
+      <changelist id="2a9a46f2-bb00-4dae-bcaa-33397846a662" name="Default Changelist" comment="JS etc" />
       <created>1604504648264</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -81,6 +79,7 @@
       <workItem from="1604584849228" duration="4138000" />
       <workItem from="1604590263726" duration="92000" />
       <workItem from="1604590428240" duration="746000" />
+      <workItem from="1604604126263" duration="1857000" />
     </task>
     <servers />
   </component>
