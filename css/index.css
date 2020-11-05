@@ -230,6 +230,7 @@ main{
     padding: 2em;
     text-align: center;
     text-decoration: none;
+    min-width: 150px;
 
 
 }
