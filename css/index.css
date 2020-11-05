@@ -1,3 +1,19 @@
+body{
+
+    font-size: 16px;
+
+}
+
+
+/* Formatering av fakta*/
+
+div{
+ // border: solid 3px gray;
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -147,42 +163,104 @@ h1 {
     font-size: 5vh;
 }
 
-/* Formatering av fakta*/
+/* Formatering av fakta main*/
 
 section{
     margin: 0 auto;
     // border: solid 3px crimson;
-    max-width: 700px;
-    height: 1000px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+
+.faktaColumn{
+    //border: solid 3px blue;
+    width: 60%;
 
 
 }
+
+.faktaImgColumn{
+    //border: solid 3px blue;
+    width: 40%;
+    //background: blue;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+
+
+}
+
+.faktaImg{
+    //background: purple;
+    margin-top: 8em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/faktaCrop_christian-wiediger-MAKEzgAQ6WU-unsplash.jpg");
+    height: 1400px;
+    width: 80%;
+}
+
+
 
 .faktaContainer{
     display: flex;
-    margin: 10em 0em;
+    justify-content: center;
+    margin-top: 10em;
+    //border: solid 3px green;
+
 }
 
 .fakta1{
-    // border: solid 3px yellow;
-
     font-size: 3em;
     font-weight: bold;
     width: 45%;
     color: #ff7e00;
-
     border-right: #ff7e00 solid 3px;
+
+    //border: solid 3px yellow;
 
 
 }
 
 .fakta2{
-    // border: solid 3px yellow;
-
     width: 35%;
     font-size: 1.2em;
-    margin: 0 auto;
+    padding-left: 1em;
+    //border: solid 3px yellow;
 
 
 }
+
+/* Formatering av fakta*/
+
+.toppFaktaContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30%;
+
+}
+
+.toppFakta{
+    border-right: white 3px solid;
+    padding: 2em;
+    text-align: center;
+
+}
+
+
+.toppFaktaTxt1{
+    color: white;
+    font-size:  1.5em;
+    font-weight: bold;
+}
+
+.toppFaktaTxt2{
+
+}
+
+
