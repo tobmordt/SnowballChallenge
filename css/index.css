@@ -8,7 +8,7 @@ body{
 /* Formatering av fakta*/
 
 div{
-//border: solid 3px gray;
+ // border: solid 3px gray;
 }
 
 
@@ -163,7 +163,7 @@ h1 {
     font-size: 5vh;
 }
 
-/* Formatering av fakta*/
+/* Formatering av fakta main*/
 
 section{
     margin: 0 auto;
@@ -200,14 +200,9 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../images/faktaCrop_christian-wiediger-MAKEzgAQ6WU-unsplash.jpg");
-
     height: 1400px;
     width: 80%;
-
-
 }
-
-
 
 
 
@@ -235,9 +230,37 @@ section{
     width: 35%;
     font-size: 1.2em;
     padding-left: 1em;
-
     //border: solid 3px yellow;
 
 
 }
+
+/* Formatering av fakta*/
+
+.toppFaktaContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30%;
+
+}
+
+.toppFakta{
+    border-right: white 3px solid;
+    padding: 2em;
+    text-align: center;
+
+}
+
+
+.toppFaktaTxt1{
+    color: white;
+    font-size:  1.5em;
+    font-weight: bold;
+}
+
+.toppFaktaTxt2{
+
+}
+
 
