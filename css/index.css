@@ -84,7 +84,7 @@ h4 a {
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 3px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nav-links-top a:hover{
@@ -242,63 +242,7 @@ main{
     text-decoration: none;
 }
 
-@media (max-width: 850px) {
 
-    .faktaImgColumn{
-        width: 0%;
-    }
-
-    .faktaImg{
-        width: 0%;
-    }
-
-    section{
-        justify-content: center;
-    }
-
-    .faktaColumn {
-        width: 100%;
-    }
-
-    body{
-        font-size: 15px;
-    }
-
-
-
-
-
-
-}
-
-@media (max-width: 415px){
-    .faktaImgColumn{
-        width: 0%;
-    }
-
-    .faktaImg{
-        width: 0%;
-    }
-
-    section{
-        justify-content: center;
-    }
-
-    .faktaColumn {
-        width: 100%;
-    }
-
-    body{
-        font-size: 12px;
-    }
-
-    .fakta1{
-        font-size: 2em;
-    }
-
-
-
-}
 
 .knapp {
     width: 100%;
@@ -350,6 +294,7 @@ footer {
     width: 50%;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 
 .footer-container-list {
@@ -372,9 +317,101 @@ footer {
 
 .list-item {
     margin: 0 10px;
+    cursor: pointer;
 }
 
+@media (max-width: 850px) {
 
+    .faktaImgColumn{
+        width: 0%;
+    }
+
+    .faktaImg{
+        width: 0%;
+    }
+
+    section{
+        justify-content: center;
+    }
+
+    .faktaColumn {
+        width: 100%;
+    }
+
+    body{
+        font-size: 15px;
+    }
+    .nav-links-top {
+         flex-direction: column;
+     }
+    .nav-links-top a{
+        font-size: 18px;
+    }
+
+    .nav-links-top li{
+        padding-top: 15px;
+    }
+
+    .socialMediaIcon {
+        width: 30px;
+        height: 30px;
+    }
+    .footer-container {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+}
+
+@media (max-width: 415px){
+    .faktaImgColumn{
+        width: 0%;
+    }
+
+    .faktaImg{
+        width: 0%;
+    }
+
+    section{
+        justify-content: center;
+    }
+
+    .faktaColumn {
+        width: 100%;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    .fakta1{
+        font-size: 2em;
+    }
+    nav {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .nav-links-top {
+        flex-direction: row;
+        width: 80%;
+        padding-top: 10px;
+    }
+    .nav-links-top a{
+        padding-top: 10px;
+    }
+    .footer-container {
+        font-size: 10px;
+    }
+    .socialMediaIcon {
+        width: 20px;
+        height: 20px;
+    }
+}
 
 
 
