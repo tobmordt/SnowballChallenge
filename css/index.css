@@ -4,11 +4,27 @@ body{
 
 }
 
-
-/* Formatering av fakta*/
+/* Formatering av av linker*/
 
 div{
  // border: solid 3px gray;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 
@@ -235,7 +251,7 @@ section{
 
 }
 
-/* Formatering av fakta*/
+/* Formatering av fakta Topp*/
 
 .toppFaktaContainer{
     display: flex;
@@ -249,6 +265,8 @@ section{
     border-right: white 3px solid;
     padding: 2em;
     text-align: center;
+    text-decoration: none;
+
 
 }
 
@@ -257,10 +275,69 @@ section{
     color: white;
     font-size:  1.5em;
     font-weight: bold;
+    text-decoration: none;
 }
 
-.toppFaktaTxt2{
+@media (max-width: 850px) {
+
+    .faktaImgColumn{
+        width: 0%;
+    }
+
+    .faktaImg{
+        width: 0%;
+    }
+
+    section{
+        justify-content: center;
+    }
+
+    .faktaColumn {
+        width: 100%;
+    }
+
+    body{
+        font-size: 15px;
+    }
+
+
+
+
+
 
 }
+
+@media (max-width: 415px){
+    .faktaImgColumn{
+        width: 0%;
+    }
+
+    .faktaImg{
+        width: 0%;
+    }
+
+    section{
+        justify-content: center;
+    }
+
+    .faktaColumn {
+        width: 100%;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    .fakta1{
+        font-size: 2em;
+    }
+
+
+
+}
+
+
+
+
 
 
