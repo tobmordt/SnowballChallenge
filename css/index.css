@@ -8,7 +8,7 @@ body{
 /* Formatering av fakta*/
 
 div{
- // border: solid 3px gray;
+  //border: solid 3px gray;
 }
 
 
@@ -53,17 +53,17 @@ h4 a {
     color: #000000;
 }
 
-.nav-links {
+.nav-links-top {
     display: flex;
     justify-content: space-around;
     width: 25%;
 }
 
-.nav-links li {
+.nav-links-top li {
     list-style: none;
 }
 
-.nav-links a{
+.nav-links-top a{
     color: #000000;
     text-decoration: none;
     font-weight: bold;
@@ -71,7 +71,7 @@ h4 a {
     font-size: 16px;
 }
 
-.nav-links a:hover{
+.nav-links-top a:hover{
     color: #ff7e00;
 }
 
@@ -88,84 +88,48 @@ h1 {
     color: white;
     font-size: 10vh;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.bg-img {
-    background-image: url("../images/christian-wiediger-nSE1dxjNhyY-unsplash.jpg");
-
-    min-height: 100vh;
-
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 
-}
-
-
-nav {
+.bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 12vh;
+    height: 6vh;
+    background-color: #262626;
 }
 
-.logo {
-    color: #000000;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 40px;
-}
-
-h4 a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.nav-links {
+.nav-links-fixed {
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    width: 80%;
 }
 
-.nav-links li {
+.nav-links-fixed li {
     list-style: none;
 }
 
-.nav-links a{
-    color: #000000;
+
+.nav-links-fixed a{
+    color: white;
     text-decoration: none;
-    font-weight: bold;
     letter-spacing: 3px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.nav-links a:hover{
+.nav-links-fixed a:hover{
     color: #ff7e00;
 }
 
-.title {
+.fixed {
+    position: fixed;
     width: 100%;
-    padding-top: 45vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-h1 {
-    text-transform: uppercase;
-    color: #ff7e00;
-    font-size: 5vh;
+    top: 0;
+    z-index: 20;
 }
 
 /* Formatering av fakta main*/
 
-section{
+main{
     margin: 0 auto;
     // border: solid 3px crimson;
     max-width: 1200px;
@@ -262,5 +226,80 @@ section{
 .toppFaktaTxt2{
 
 }
+
+.knapp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+button {
+    background-color: #262626; /* Green */
+    height: 12vh;
+    width: 30vh;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    background-color: #ff7e00;
+    color: black;
+}
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-list {
+    width: 100%;
+    list-style: none;
+}
+
+.footer-container-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.socialMediaIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.list-item {
+    margin: 0 10px;
+}
+
 
 
