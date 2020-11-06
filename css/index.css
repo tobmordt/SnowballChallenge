@@ -112,6 +112,7 @@ h1 {
     align-items: center;
     height: 6vh;
     background-color: #262626;
+    padding-bottom: -6vh;
 }
 
 .nav-links-fixed {
@@ -230,11 +231,14 @@ main{
     padding: 2em;
     text-align: center;
     text-decoration: none;
-
-
+    transition-duration: 0.4s;
+    border-radius: 4px;
 
 }
 
+.toppFakta:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 .toppFaktaTxt1{
     color: white;
@@ -243,7 +247,20 @@ main{
     text-decoration: none;
 }
 
+.arrow-container {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
 
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 1vh;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 .knapp {
     width: 100%;
@@ -254,7 +271,7 @@ main{
 }
 
 button {
-    background-color: #262626; /* Green */
+    background-color: #262626;
     height: 12vh;
     width: 30vh;
     border: none;
@@ -320,6 +337,7 @@ footer {
     margin: 0 10px;
     cursor: pointer;
 }
+
 
 @media (max-width: 875px) {
 
